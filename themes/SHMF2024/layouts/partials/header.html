@@ -29,7 +29,8 @@
     </div>
     <div class="header-info">
         <p>
-            {{ .Site.Params.info }}
+            {{/*  {{ .Site.Params.info }}  */}}
+            {{ $.Site.Data.generic.show_date }}
         </p>
     </div>
 </header>
