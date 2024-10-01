@@ -1,0 +1,83 @@
+sponsors_enabled = true
+message_html = "<p>Special thanks to our generous partners.</p>"
+link_to_partners = false
+
+[[sponsor_images]]
+image = "/uploads/shmf-sponsors-home-400x200-0001-corcoran.jpg"
+alt_text = "Corcoran Legends Realty"
+
+[[sponsor_images]]
+image = "/uploads/shmf-sponsors-home-400x200-0000-goosefeather.jpg"
+alt_text = "Goosefeather"
+
+[[sponsor_images]]
+image = "/uploads/shmf-sponsors-home-400x200-tarrytown-house.jpg"
+alt_text = "Tarrytown House Estate"
+
+[[sponsor_images]]
+image = "/uploads/shmf-sponsors-home-400x200-beekman.jpg"
+alt_text = "Beekman Ale House"
+
+[[sponsor_images]]
+image = "/uploads/shmf-sponsors-home-400x200-0017-edge-on-hudson.jpg"
+alt_text = "Edge on Hudson"
+
+[[sponsor_images]]
+image = "/uploads/shmf-sponsors-home-400x200-0016-school-of-rock.jpg"
+alt_text = "School of Rock Briarcliff Manor"
+
+[[sponsor_images]]
+image = "/uploads/shmf-sponsors-home-400x200-0012-fit-inn.jpg"
+alt_text = "Fit Inn"
+
+[[sponsor_images]]
+image = "/uploads/shmf-sponsors-home-400x200-0013-sh-animal-hosp.jpg"
+alt_text = "Sleepy Hollow Animal Hospital"
+
+[[sponsor_images]]
+image = "/uploads/shmf-sponsors-home-400x200-0014-clover.jpg"
+alt_text = "Cover Heating & Cooling"
+
+[[sponsor_images]]
+image = "/uploads/shmf-sponsors-home-400x200-0015-the-peak.jpg"
+alt_text = "The Peak"
+
+[[sponsor_images]]
+image = "/uploads/shmf-sponsors-home-400x200-0009-kendal.jpg"
+alt_text = "Kendal on Hudson"
+
+[[sponsor_images]]
+image = "/uploads/shmf-sponsors-home-400x200-0010-allan-block.jpg"
+alt_text = "Allan Block Insurance"
+
+[[sponsor_images]]
+image = "/uploads/shmf-sponsors-home-400x200-0007-phelps.jpg"
+alt_text = "Phelps Northwell Health"
+
+[[sponsor_images]]
+image = "/uploads/shmf-sponsors-home-400x200-0008-rey.jpg"
+alt_text = "Rey Insurance"
+
+[[sponsor_images]]
+image = "/uploads/shmf-sponsors-home-400x200-0003-levity.jpg"
+alt_text = "West Nyack Levity Live"
+
+[[sponsor_images]]
+image = "/uploads/shmf-sponsors-home-400x200-0004-northlight.jpg"
+alt_text = "Northlight"
+
+[[sponsor_images]]
+image = "/uploads/shmf-sponsors-home-400x200the-tapp.jpg"
+alt_text = "The Tapp"
+
+[[sponsor_images]]
+image = "/uploads/shmf-sponsors-home-400x200-setbackinn.jpg"
+alt_text = "The Set Back Inn"
+
+[[sponsor_images]]
+image = "/uploads/shmf-sponsors-home-400x200-sunblueenergy-1.jpg"
+alt_text = "Sun Blue Energy"
+
+[[sponsor_images]]
+image = "/uploads/shmf-sponsors-home-400x200-0017-mh-new-square-black.png"
+alt_text = "Tarrytown Music Hall"
