@@ -1,0 +1,90 @@
+paths:
+  data: data
+  collections: content
+  includes: layouts
+  layouts: layouts
+  static: static
+  uploads: static/uploads
+  source: ''
+  archetypes: archetypes
+  assets: assets
+  content: content
+  pages: content
+  publish: public
+  config: ''
+collections_config:
+  pages:
+    path: content
+    output: true
+    filter: strict
+    parse_branch_index: true
+    icon: article
+    preview:
+      icon_color: '#f89732'
+    disable_add: false
+    disable_add_folder: true
+    disable_file_actions: false
+  artists:
+    path: content/artists
+    output: true
+    icon: music_note
+    preview:
+      icon_color: '#f89732'
+    disable_add: false
+    disable_add_folder: true
+    disable_file_actions: false
+    schemas:
+      default:
+        path: schemas/artist.md
+  data:
+    icon: analytics
+    preview:
+      icon_color: '#f89732'
+_enabled_editors:
+  - data
+  - content
+_inputs:
+  layout:
+    hidden: true
+  is_enabled:
+    type: switch
+  homepage_hero:
+    comment: The homepage hero has two images. Wide 2000 x 690. Mobile 800 x 800.
+  homepage_large_image:
+    comment: Image size is 2000 x 690
+  homepage_small_image:
+    comment: Must be a square image. Image size is ideally 800 x 800.
+  message_text:
+    type: markdown
+  mission_text:
+    type: markdown
+  is_active:
+    type: switch
+  bio_text:
+    type: markdown
+    comment: '**Important:** This content must start with a Heading 2. Band name should be set as a Heading 2.'
+  details_text:
+    type: html
+  portfolio_enabled:
+    type: switch
+    comment: When ON, artist images will support a lightbox gallery.
+  portfolio:
+    comment: These are the images in the portfolio grid on the artist detail page.
+  thumbnail_image:
+    comment: Image size 882 x 624
+  lightbox_image:
+    comment: This can be any size. Ideal size is no larger than 1600 by 900. This lightbox an support YOUTUBE video. Select VIEW IMAGE URL and paste the entire Youtube link.
+  lightbox_caption:
+    comment: If included, this will show below the lightbox image.
+  is_approved:
+    type: switch
+    comment: If enabled, the image will show on the website.
+  tickets_link:
+    comment: SquadUp tickets link.
+  blurb_text:
+    type: markdown
+_select_data: {}
+_structures: {}
+_editables: {}
+data_config: {}
+timezone: America/New_York
