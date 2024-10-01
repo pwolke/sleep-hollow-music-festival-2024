@@ -1,0 +1,16 @@
+{{ partial "head.html" . }}
+
+<body>
+    <div class="wrapper">
+        {{- partial "header.html" . -}}
+        {{- partial "hero.html" . -}}
+
+        {{- block "main" . }}
+
+        {{- end }}
+
+        {{- partial "footer.html" . -}}
+    </div>
+</body>
+
+</html>

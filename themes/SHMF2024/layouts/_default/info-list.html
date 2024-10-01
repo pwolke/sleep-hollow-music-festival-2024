@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+<div class="info-content">
+    {{ .Content }}
+</div>
+
+<div class="info-menu-container">
+    {{/*  {{ $pages := $.Pages.ByWeight }}  */}}
+    {{ range first 5 .Pages }}
+    {{/*  <a href="{{ .RelPermalink }}" {{ if .Params.section_color }}style="background-color:{{ .Params.section_color }}"{{ end }}> {{ .Title }}</a>  */}}
+    <a href="{{ .RelPermalink }}" style="background-color:{{ if .Params.section_color }}{{ .Params.section_color }}{{ else }}transparent{{ end }};">{{ .Title }}</a>
+    {{ end }} {{/* End Range */}}
+    <span>Partners</span>
+</div>
+{{ end }} {{/* End Main */}}

@@ -1,0 +1,35 @@
+<div class="hamburger">
+    <input type="checkbox" id="overlay-input" />
+    <label for="overlay-input" id="overlay-button"><span></span></label>
+    <div id="overlay">
+        <ul>
+            <li class="mobile-nav-header">
+                <a href="/">
+                    <img src="{{ .Site.Params.header_logo_image }}" alt="">
+                </a>
+                <p>
+                    {{ .Site.Params.info }}
+                </p>
+            </li>
+            {{ $currentPage := . }}
+            {{ range site.Menus.main }}
+            <li>
+                <a href="{{ .PageRef }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+    <div id="backdrop"></div>
+</div>
+<header>
+    <div class="logo">
+        <a href="/">
+            <img src="{{ .Site.Params.header_logo_image }}" alt="Sleepy Hollow Music Festival Logo">
+        </a>
+    </div>
+    <div class="header-info">
+        <p>
+            {{ .Site.Params.info }}
+        </p>
+    </div>
+</header>

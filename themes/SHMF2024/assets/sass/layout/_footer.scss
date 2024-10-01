@@ -1,0 +1,96 @@
+footer {
+    height: map-get($size, footer-height);
+    background-color: map-get($color, fg);
+    color: map-get($color, bg);
+
+    .footer-container {
+        margin-left: auto;
+        margin-right: auto;
+        width: map-get($size, inner-content-width);
+        height: 100%;
+        display: grid;
+        grid-template-columns: 254px 185px auto 131px;
+        grid-column-gap: 20px;
+        align-items: center;
+
+        @include media('<=monster') {
+            width: 80%;
+        }
+
+        @include media('<=desktop') {
+            width: 90%;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template: repeat(4, 1fr);
+            align-items: end;
+            justify-items: center;
+
+            .logo-sh {
+                order: 1;
+                justify-self: start;
+            }
+            .social {
+                order: 3;
+                justify-self: start;
+            }
+            .info {
+                order: 4;
+                align-self: center;
+            }
+            .logo-ilny {
+                order: 2;
+                justify-self: end;
+                padding-top: 20px
+            }
+        }
+
+        .logo-sh {
+            img {
+                width: 254px;
+            }
+        }
+
+        .info {
+
+            p {
+                padding-left: 14rem;
+                font-size: 1rem;
+                line-height: normal;
+                font-weight: 100;
+                text-align: right;
+
+                @include media('<=monster') {
+                    padding-left: 0;
+                }
+                @include media('<=tablet') {
+                    font-size: .55rem;
+                }
+
+            }
+        }
+        .logo-ilny {
+            img {
+                width: 131px;
+            }
+        }
+
+        .social {
+
+            ul {
+                list-style-type: none;
+
+                li {
+                    display: inline-block;
+                    margin-right: 10px;
+
+                    a {
+
+                        img {
+                            height: 38px;
+                            width: 38px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

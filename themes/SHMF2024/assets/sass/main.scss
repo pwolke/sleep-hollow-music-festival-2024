@@ -1,0 +1,80 @@
+// SASS SCSS imports
+// Load dependancies first (include-media & vars)
+
+// LIBS
+@import '/libs/include-media';
+@import 'libs/vars';
+
+// COMPONENTS
+@import 'components/hero';
+@import 'components/form-elements';
+@import 'components/button';
+
+// LAYOUT
+@import '/layout/wrapper';
+@import '/layout/header';
+@import '/layout/menu';
+@import '/layout/home';
+@import '/layout/info';
+@import '/layout/merch';
+@import '/layout/food';
+@import '/layout/content';
+@import '/layout/artist';
+@import '/layout/vendors';
+@import '/layout/footer';
+
+// BASE
+@import '/base/reset';
+@import '/base/page';
+@import '/base/typography';
+
+// FONTS
+// Work Sans
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700&display=swap');
+
+// UTILITIES
+
+::selection {
+    color: #fff;
+    background: #f89732;
+}
+
+.tac {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.scrollable-element {
+    scrollbar-color: #f89732 #fff;
+}
+
+// For use in honeypot form fields
+.hidden {
+    display: none;
+}
+
+// Swiper
+.swiper {
+    width: 100%;
+    height: 586px;
+
+    @include media('<=monster') {
+        height: 34.4vw;
+    }
+}
+
+.swiper-home {
+    @include media('<=tablet') {
+        height: 100vw;
+    }
+}
+
+// Swiper Vars
+:root {
+    --swiper-pagination-bottom: 60px;
+    --swiper-pagination-bullet-size: 16px;
+    --swiper-pagination-bullet-horizontal-gap: 8px;
+    --swiper-pagination-color: #FFF;
+    --swiper-pagination-bullet-inactive-color: #FFF;
+    --swiper-navigation-color: #f89732;
+}

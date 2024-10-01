@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<div class="inner">
+    {{ if eq .Title "Info" }}
+    {{ partial "pages/info.html" . }}
+    {{ end }}
+    {{ if eq .Title "Festival FAQ & Links" }}
+    {{ partial "pages/fest-info.html" . }}
+    {{ end }}
+    {{ if eq .Title "Fest Food & Drink" }}
+    {{ partial "pages/food-and-drink.html" . }}
+    {{ end }}
+    {{ if eq .Title "Travel & Lodging" }}
+    {{ partial "pages/travel-and-lodging.html" . }}
+    {{ end }}
+    {{ if eq .Title "Vendors" }}
+    {{ partial "pages/vendors.html" . }}
+    {{ end }}
+    {{ if eq .Title "Volunteer" }}
+    {{ partial "pages/volunteer.html" . }}
+    {{ end }}
+    {{ if eq .Title "Tickets" }}
+    {{ partial "pages/tickets.html" . }}
+    {{ end }}
+    {{ if eq .Title "Merch" }}
+    {{ partial "pages/merch.html" . }}
+    {{ end }}
+    {{/*  {{ if eq .Title "Merch2" }}
+    {{ partial "pages/merch2.html" . }}
+    {{ end }}  */}}
+</div>
+{{ end }}

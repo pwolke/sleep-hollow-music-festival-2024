@@ -1,0 +1,43 @@
+// TYPOGRAPHY
+// Font Family
+$family: (
+    heading:    ('Work Sans', sans-serif),
+    body:       ('Work Sans', sans-serif),
+);
+
+// Font Weight
+$weight: (
+    normal:           300,
+    heavy:            400
+);
+
+// Sizes & Spacing
+$size: (
+    site-width:           100%,
+    header-height:        120px,
+    banner-height:        140px,
+    hero-height:          600px,
+    footer-height:        152px,
+    inner-content-width: 1320px,
+    inner-alt:           1000px,
+);
+
+// Time & Duration
+$time: (
+    short:          .3s,
+    medium:         .6s,
+    long:           1.2s
+);
+
+// Color Palette
+$color: (
+    bg:             #fff,
+    fg:             #000,
+    fg-a:           rgba(0, 0, 0, 0.9),
+    accent1:        #F7941D,
+    accent2:        #1A9AB1,
+    accent3:        #FEC759,
+    accent4:        #37B1C8,
+    accent5:        #202A44,
+
+);

@@ -1,0 +1,204 @@
+#overlay-button {
+    position: absolute;
+    left: calc(20px + 10vw);
+    top: 30px;
+    padding: 26px 11px;
+    z-index: 11;
+    cursor: pointer;
+    user-select: none;
+
+    @include media('<=monster') {
+        left: 30px;
+    }
+
+    span {
+        height: 4px;
+        width: 55px;
+        border-radius: 3px;
+        background-color: white;
+        position: relative;
+        display: block;
+        transition: all map-get($time, short) ease-in-out;
+
+        &:before {
+            top: -12px;
+            left: -1px;
+            visibility: visible;
+        }
+
+        &:after {
+            top: 12px;
+            left: -1px;
+        }
+
+        &:before,
+        &:after {
+            height: 4px;
+            width: 55px;
+            border-radius: 3px;
+            background-color: white;
+            position: absolute;
+            content: "";
+            transition: all map-get($time, short) ease-in-out;
+        }
+    }
+
+    &:hover span, &:hover span:before, &:hover span:after {
+        background: map-get($color, accent1);
+      }
+}
+
+input[type=checkbox] {
+    display: none;
+
+    &:checked~#overlay {
+        visibility: visible;
+    }
+    &:checked~#backdrop {
+        visibility: visible;
+    }
+
+    &:checked~#overlay-button {
+
+        &:hover span,
+        span {
+            background: transparent;
+        }
+
+        span {
+            &:before {
+                transform: rotate(45deg) translate(8px, 7px);
+                opacity: 1;
+            }
+
+            &:after {
+                transform: rotate(-45deg) translate(7px, -10px);
+            }
+        }
+    }
+}
+#backdrop {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: map-get($color, fg-a);
+    z-index: 2;
+    visibility: hidden;
+
+    &.active {
+        visibility: visible;
+    }
+}
+#overlay {
+    height: 100vh;
+    width: 768px;
+    left: 0;
+    top: 0;
+    background: map-get($color, fg-a);
+    z-index: 3;
+    visibility: hidden;
+    position: fixed;
+    border-right: 2px solid map-get($color, bg);
+
+    @include media('<=tablet') {
+        width: 100vw;
+        border-right: unset;
+    }
+
+    &.active {
+        visibility: visible;
+    }
+
+    ul {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 90px;
+        padding-left: 0;
+        height: 80vh;
+        list-style-type: none;
+        text-align: center;
+        text-transform: uppercase;
+
+        .mobile-nav-header {
+            background-color: map-get($color, fg) !important;
+
+            img {
+                margin-left: auto;
+                margin-right: auto;
+                padding: 0 60px;
+            }
+
+            p {
+                padding-top: 16px;
+                color: map-get($color, accent1);
+                text-align: center;
+            }
+
+            @include media('<=phone') {
+                img {
+                    width: 80%;
+                }
+
+                p {
+                    font-size: 4vw;
+                }
+            }
+        }
+
+        li {
+            padding: 40px 0;
+            margin: 2px 0;
+            width: 100%;
+            background-color: gray;
+
+            @include media('<=phone') {
+                padding: 16px 0;
+            }
+
+            &:nth-of-type(2) {
+                background-color: map-get($color, accent1);
+
+                &:hover {
+                    background-color: darken(map-get($color, accent1), 10);
+                }
+            }
+            &:nth-of-type(3) {
+                background-color: map-get($color, accent2);
+
+                &:hover {
+                    background-color: darken(map-get($color, accent2), 10);
+                }
+            }
+            &:nth-of-type(4) {
+                background-color: map-get($color, accent4);
+
+                &:hover {
+                    background-color: darken(map-get($color, accent4), 10);
+                }
+            }
+            &:nth-of-type(5) {
+                background-color: map-get($color, accent3);
+
+                &:hover {
+                    background-color: darken(map-get($color, accent3), 10);
+                }
+            }
+
+            a {
+                color: map-get($color, fg);
+                text-decoration: none;
+                box-shadow: none;
+                font-size: 3em;
+                line-height: normal;
+
+                &:hover {
+                    color: map-get($color, bg);
+                }
+            }
+        }
+    }
+}

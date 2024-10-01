@@ -1,0 +1,105 @@
+{{ partial "head.html" . }}
+
+<body>
+    <div class="wrapper">
+        {{ partial "header.html" . }}
+        {{ partial "hero-home.html" . }}
+
+        <div class="home-menu-container">
+            <div class="home-menu">
+                <a href="{{ .Permalink }}info">
+                    <div class="home-menu-item info">Info</div>
+                </a>
+                <a href="{{ .Permalink }}tickets">
+                    <div class="home-menu-item tickets">Tickets</div>
+                </a>
+                <a href="{{ .Permalink }}artists">
+                    <div class="home-menu-item artists">Artists</div>
+                </a>
+                <a href="{{ .Permalink }}merch">
+                    <div class="home-menu-item merch">Merch</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="mission">
+            {{ $intro := .Params.introduction }}
+            <h1>{{ $intro.title }}</h1>
+            <p>
+                {{ $intro.message_text }}
+            </p>
+        </div>
+
+        <div class="ros">
+            {{ $ros := .Params.run_of_show }}
+            <img src="{{ $ros.desktop_image }}" alt="Image displaying show times">
+        </div>
+        <div class="ros-m">
+            <img src="{{ $ros.mobile_image }}" alt="Image displaying show times">
+        </div>
+
+        <div class="earlybird">
+            <div class="title">
+                <h2>Want Tickets?</h2>
+            </div>
+            <div class="info">
+                <p>
+                    Get yours <a href="{{ $.Site.Data.generic.tickets_link }}" target="_blank">here</a>.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="sponsors">
+            {{ $.Site.Data.sponsors.message_html | safeHTML }}
+
+            <div class="sponsors-container">
+            {{ $sponsors := $.Site.Data.sponsors.sponsor_images }}
+
+            {{ range $sponsors }}
+                <div>
+                    <img src="{{ .image }}" alt="{{ .alt_text }}">
+                </div>
+            {{ end }}
+            </div>
+
+        </div>
+
+
+        {{/*  <div class="ilny">
+            <div class="logo">
+                <img src="/images/ilny-color.png" alt="I Love New York logo">
+            </div>
+            <div class="info">
+                <p>
+                    Support for this music festival is provided by a Market New York grant awarded to the Village of Sleepy Hollow from I LOVE NY/New York State's Division of Tourism through the Regional Economic Development Council initiative.
+                </p>
+            </div>
+        </div>  */}}
+
+        {{ partial "footer.html" . }}
+    </div>
+
+    {{/*  Meta tracking pixel for GUPTA media   */}}
+    {{/*  This pixel is only on the the homepage   */}}
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '134050753666280');
+        fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=134050753666280&ev=PageView&noscript=1"
+        /></noscript>
+    <!-- End Meta Pixel Code -->
+</body>
+
+</html>

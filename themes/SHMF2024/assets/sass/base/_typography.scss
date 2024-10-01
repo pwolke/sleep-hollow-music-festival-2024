@@ -1,0 +1,82 @@
+html { font-size: 16px; }
+body, input, select, textarea {
+    font-family: map-get($family, body);
+    font-weight: map-get($weight, normal);
+    font-size: 1.1rem;
+    line-height: 1.3em;
+    color: map-get($color, fg);
+
+    a {
+        color: map-get($color, accent1);
+        font-weight: 400;
+    }
+}
+h1, h2, h3, h4, h5, h6 {
+    color: map-get($color, text);
+    font-weight: 300;
+    text-transform: uppercase;
+}
+h1 {
+    font-family: map-get($family, heading);
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 300;
+    word-break: keep-all;
+    color: map-get($color, fg);
+    margin: 35px 0 26px 0;
+    text-transform: uppercase;
+}
+h2 {
+    color: map-get($color, gold1);
+    font-size: 1.7rem;
+    line-height: 1.8rem;
+    font-weight: 600;
+    margin-block-start: 1.6rem;
+
+}
+h3 {
+    color: map-get($color, gold1);
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+h4 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+}
+p {
+    font-size: 1.6875rem;
+    line-height: normal;
+    font-weight: 400;
+    text-align: left;
+}
+a {
+    text-decoration: none;
+    box-shadow: 0 1px 0 map-get($color, fg);
+    transition: .3s;
+}
+a:hover {
+    text-decoration: none;
+}
+blockquote {
+    color: map-get($color, accent1);
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 36px;
+}
+cite {
+    font-family: map-get($family, body);
+    font-weight: map-get($weight, normal);
+    font-style: normal;
+}
+strong {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+ul,
+li {
+    padding-left: 0;
+}

@@ -1,0 +1,25 @@
+<div class="swiper swiper-home">
+    <div class="swiper-wrapper">
+        {{ $homepage_hero := $.Site.Data.homepage.homepage_hero }}
+        {{ range $homepage_hero }}
+        <div class="swiper-slide">
+
+            {{/*  if the link field has a value, show a clickable hero. Otherwise, just a plan hero   */}}
+            {{ if .link_url }}
+            <a href="{{ .link_url}}" target="_blank">
+                <div class="hero-home" style="background-image: url('{{ .homepage_large_image }}');"></div>
+            </a>
+            <a href="{{ .link_url}}" target="_blank">
+                <div class="hero-home-small" style="background-image: url('{{ .homepage_small_image }}');"></div>
+            </a>
+            {{ else }}
+            <div class="hero-home" style="background-image: url('{{ .homepage_large_image }}');"></div>
+            <div class="hero-home-small" style="background-image: url('{{ .homepage_small_image }}');"></div>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>

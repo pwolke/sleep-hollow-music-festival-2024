@@ -1,0 +1,19 @@
+<div class="inner inner-double">
+    <div class="main">
+
+        {{ .Content }}
+
+        {{ partial "important-links.html" . }}
+
+
+        {{/* {{ partial "faq.html" . }} */}}
+    </div>
+    <aside>
+        <a href="{{ $.Site.Data.generic.tickets_link }}" target="_blank" class="tickets-cta">
+            Buy Tickets Now
+            <span>
+                Click Here
+            </span>
+        </a>
+    </aside>
+</div>

@@ -1,0 +1,12 @@
+<div class="faq">
+<h3>FAQ</h3>
+{{ $faq := $.Site.Data.faq.faq }}
+{{ range $faq }}
+<details>
+    <summary>
+        {{ .summary }}
+    </summary>
+        {{ .details_text | safeHTML }}
+</details>
+{{ end }}
+</div>

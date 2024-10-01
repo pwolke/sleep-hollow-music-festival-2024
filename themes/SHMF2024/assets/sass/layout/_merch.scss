@@ -1,0 +1,90 @@
+.merch-featured {
+    margin: 4rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+
+    @include media('<=tablet') {
+        grid-template-columns: 1fr;
+        gap: unset;
+    }
+
+    div {
+        text-align: center;
+
+        &:first-of-type {
+            justify-self: center;
+        }
+    }
+
+    .blurb {
+        h3 {
+            font-size: 1.05rem;
+            line-height: 0;
+            font-weight: 500;
+        }
+        p {
+            font-size: .8rem;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 0;
+
+            span {
+                display: block;
+                margin-top: .35rem;
+
+                a {
+                    color: map-get($color, fg);
+
+                    &:hover {
+                        color: map-get($color, accent1);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.merch-container {
+
+    margin: 4rem 0 6rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+
+    @include media('<=tablet') {
+        grid-template-columns: 1fr;
+    }
+
+    .merch-card {
+        text-align: center;
+        margin: 0 auto;
+
+        img {
+            border: 1px solid map-get($color, fg);
+        }
+
+        h2 {
+            font-size:  1.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        p {
+            margin-bottom: 2.3rem;
+            text-align: center;
+            font-weight: 400;
+            line-height: 0;
+
+            &::before {
+                content: '$';
+            }
+
+        }
+
+        a {
+            text-decoration: none;
+            box-shadow: none;
+        }
+    }
+}

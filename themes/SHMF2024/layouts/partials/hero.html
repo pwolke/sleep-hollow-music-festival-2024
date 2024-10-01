@@ -1,0 +1,43 @@
+<div class="banner"
+      {{ with $.Params.section_color }}
+      style="background-color: {{ . }}"
+      {{ end }}
+    >
+    <h1>
+        {{- .Title -}}
+    </h1>
+</div>
+{{/*  <div class="banner
+    {{ if eq .Title "Info" }} banner-info{{end}}
+    {{- if eq .Title "Artists" -}} banner-artists{{- end -}}
+    {{- if eq .Title "Tickets" -}} banner-tickets{{- end -}}
+    {{- if eq .Title "Merch" -}} banner-merch{{- end -}}
+    ">
+    <h1>
+        {{- .Title -}}
+    </h1>
+</div>  */}}
+
+<div class="swiper">
+  <div class="swiper-wrapper">
+
+    {{ $hero := .Params.hero }}
+    {{ range $hero }}
+    {{ if .link_url }}
+    <div class="swiper-slide hero">
+      <a href="{{ .link_url }}" target="_blank">
+        <img src="{{ .image }}" alt="{{ .alt_text }}">
+      </a>
+    </div>
+    {{ else }}
+    <div class="swiper-slide hero">
+        <img src="{{ .image }}" alt="{{ .alt_text }}">
+    </div>
+    {{ end }}
+    {{ end }}
+
+  </div>
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>

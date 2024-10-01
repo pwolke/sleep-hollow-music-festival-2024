@@ -1,0 +1,14 @@
+<div class="inner inner-single">
+  {{ .Content }}
+
+  <div class="vendors-container">
+    {{ $vendors := .Params.vendors }} {{ range $vendors }}
+
+    <div class="vendor">
+      <h4>{{ .category }}</h4>
+      {{ range .store }} {{ . }}<br />
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</div>

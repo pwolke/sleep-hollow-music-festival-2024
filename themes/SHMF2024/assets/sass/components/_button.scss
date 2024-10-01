@@ -1,0 +1,43 @@
+.button {
+    padding: 6px 16px;
+    // border-radius: 16px;
+    text-transform: uppercase;
+    color: map-get($color, bg);
+    background-color: map-get($color, fg);
+}
+.bigger {
+    padding: 12px 24px;
+    // border-radius: 16px;
+    border-width: 0;
+    text-transform: uppercase;
+    color: map-get($color, fg);
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: map-get($color, accent1);
+}
+
+.tickets-cta {
+    color: map-get($color, fg);
+    background-color: map-get($color, accent1);
+    border-radius: 3px;
+    border-left: 2px solid lighten(map-get($color, accent1), 10);
+    border-top: 2px solid lighten(map-get($color, accent1), 10);
+    border-right: 2px solid darken(map-get($color, accent1), 10);
+    border-bottom: 2px solid darken(map-get($color, accent1), 10);
+    padding: 20px 40px;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+
+    span {
+        display: block;
+        margin-top: 10px;
+        font-size: 1.2rem;
+        text-decoration: underline;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+}

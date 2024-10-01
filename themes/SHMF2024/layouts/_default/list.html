@@ -1,0 +1,41 @@
+{{ define "main" }}
+
+
+<div class="artist-list-container">
+    <div class="stage-banner">
+        <h2>Main Stage</h2>
+    </div>
+
+    {{ $artist := .Params.artist }}
+    {{ range $artist }}
+    {{ if .is_active }}
+    <div class="artist">
+        <div class="photo">
+            <a href="{{ .page_link }}">
+                <img src="{{ .profile_image }}" alt="Photo of {{ .name }}">
+            </a>
+        </div>
+        <div class="bio">
+            <h2>{{- .name -}}</h2>
+            <div class="words">
+                {{ .bio | markdownify }} <a href="{{ .page_link }}" class="read-more">Read More</a>
+            </div>
+            <ul>
+                {{ with .website_link }}<li><a href="{{ . }}"><img src="/images/icon-website.png" alt="Website icon"></a></li>{{ end }}
+                {{ with .instagram_link }}<li><a href="{{ . }}"><img src="/images/icon-instagram.png" alt="Instagram icon"></a></li>{{ end }}
+                {{ with .facebook_link }}<li><a href="{{ . }}"><img src="/images/icon-facebook.png" alt="Facebook icon"></a></li>{{ end }}
+                {{ with .twitter_link }}<li><a href="{{ . }}"><img src="/images/icon-twitter.png" alt="Twitter icon"></a></li>{{ end }}
+                {{ with .youtube_link }}<li><a href="{{ . }}"><img src="/images/icon-youtube.png" alt="You Tube icon"></a></li>{{ end }}
+                {{ with .tiktok_link }}<li><a href="{{ . }}"><img src="/images/icon-tiktok.png" alt="TikTok icon"></a></li>{{ end }}
+                {{ with .apple_link }}<li><a href="{{ . }}"><img src="/images/icon-apple-music.png" alt="Apple Music icon"></a></li>{{ end }}
+                {{ with .spotify_link }}<li><a href="{{ . }}"><img src="/images/icon-spotify.png" alt="Spotify icon"></a></li>{{ end }}
+                {{ with .soundcloud_link }}<li><a href="{{ . }}"><img src="/images/icon-soundcloud.png" alt="Sound Cloud icon"></a></li>{{ end }}
+            </ul>
+        </div>
+    </div>
+    {{ end }}
+    {{ end }}
+</div>
+
+
+{{ end }}

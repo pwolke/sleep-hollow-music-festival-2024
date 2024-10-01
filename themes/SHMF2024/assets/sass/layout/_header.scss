@@ -1,0 +1,78 @@
+header {
+
+    // position: sticky;
+    // top: 0;
+    z-index: 10;
+
+    height: map-get($size, header-height);
+    background-color: map-get($color, fg);
+    color: map-get($color, bg);
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 22px;
+
+    @include media('<=tablet') {
+        grid-template-columns: 1fr;
+    }
+
+    .logo {
+
+        align-self: center;
+        justify-self: end;
+
+        @include media('<=tablet') {
+            justify-self: center;
+        }
+        @include media('<=phone') {
+            justify-self: end;
+            width: 70%;
+            img {
+                margin-top: 20px;
+            }
+        }
+
+        a {
+
+            img {
+                width: 290px;
+
+                @include media('<=phone') {
+                    width: 80%;
+                }
+            }
+        }
+    }
+
+    .header-info {
+
+        align-self: center;
+
+        p {
+            margin-top: 10px;
+            color: map-get($color, accent1);
+            font-size: 1.6rem;
+            line-height: 1.6rem;
+            font-weight: 300;
+        }
+
+        @include media('<=desktop') {
+
+            p {
+                font-size: calc(.6rem + 1.3vw);
+                line-height: 1rem;
+            }
+        }
+
+        @include media('<=tablet') {
+            justify-self: center;
+        }
+        @include media('<=phone') {
+            justify-self: center;
+            margin-top: -25px;
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
+}

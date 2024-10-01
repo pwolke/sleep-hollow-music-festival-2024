@@ -1,0 +1,262 @@
+.home-menu-container {
+
+    .home-menu {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        a {
+            box-shadow: none;
+        }
+
+        @include media('<=tablet') {
+            // grid-template-columns: 1fr;
+        }
+
+        .home-menu-item {
+            height: 232px;
+            width: 100%;
+            color: map-get($color, fg);
+            font-size: 3.375rem;
+            line-height: normal;
+            text-transform: uppercase;
+            padding: 80px 0;
+            text-align: center;
+            transition: map-get($time, short);
+
+            // Common to all menu items
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-blend-mode: overlay;
+            background-position: center center;
+
+            &:hover {
+                font-size: 3.5rem;
+                color: map-get($color, bg);
+                box-shadow: inset 0 0 8px lighten(map-get($color, fg), 30);
+            }
+
+            @include media('<=tablet') {
+                height: 120px;
+                font-size: 2.25rem;
+                line-height: 0;
+            }
+        }
+
+        .info {
+            background-color: map-get($color, accent1);
+            background-image: url(/images/callout-temp-info.jpg);
+
+            &:hover {
+                background-color: darken(map-get($color, accent1), 6);
+            }
+        }
+
+        .tickets {
+            background-color: map-get($color, accent4);
+            background-image: url(/images/callout-temp-tickets.jpg);
+
+            &:hover {
+                background-color: darken(map-get($color, accent4), 6);
+            }
+        }
+
+        .artists {
+            background-color: map-get($color, accent2);
+            background-image: url(/images/callout-temp-artists.jpg);
+
+            &:hover {
+                background-color: darken(map-get($color, accent2), 6);
+            }
+        }
+
+        .merch {
+            background-color: map-get($color, accent3);
+            background-image: url(/images/callout-temp-merch.jpg);
+
+            &:hover {
+                background-color: darken(map-get($color, accent3), 6);
+            }
+        }
+    }
+}
+
+.mission {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 0 4rem 0;
+    width: 987px;
+
+    @include media('<=desktop') {
+        width: 80vw;
+    }
+    @include media('<=tablet') {
+        width: 96vw;
+    }
+
+    h1 {
+        padding: 0 1rem;
+        font-size: 2.3rem;
+        line-height: 1.2;
+        text-align: center;
+        font-weight: 400;
+        text-transform: unset;
+    }
+
+    p {
+        padding: 0 2rem;
+        font-size: 1.65rem;
+        line-height: normal;
+        font-weight: 400;
+        text-align: center;
+    }
+}
+
+.ros {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    color: map-get($color, bg);
+    background-color: map-get($color, accent5);
+
+    @include media('<tablet') {
+        display: none;
+    }
+}
+
+.ros-m {
+    display: none;
+
+    @include media('<tablet') {
+        display: block;
+    }
+}
+
+.earlybird {
+    margin-left: auto;
+    margin-right: auto;
+    height: 127px;
+    color: map-get($color, bg);
+    background-color: map-get($color, accent4);
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    align-items: center;
+
+    @include media('<=tablet') {
+        grid-template-columns: 1fr;
+        grid-column-gap: 0;
+        place-items: center;
+    }
+
+    .title {
+        justify-self: end;
+
+        h2 {
+            margin: 0;
+            font-size: 2.6rem;
+            line-height: normal;
+        }
+
+        @include media('<=tablet') {
+            align-self: end;
+            justify-self: unset;
+
+            h2 {
+                font-size: 2rem;
+            }
+        }
+    }
+    .info {
+        justify-self: start;
+
+        p {
+            font-size: 2rem;
+            line-height:  normal;
+
+            a {
+                color: map-get($color, bg);
+                box-shadow: 0 .1rem 0 map-get($color, bg);
+                font-weight: 500;
+
+                &:hover {
+                    box-shadow: none;
+                }
+            }
+        }
+
+        @include media('<=tablet') {
+            align-self: start;
+            justify-self: center;
+
+            p {
+                font-size: 1.8rem;
+            }
+        }
+    }
+}
+
+.sponsors {
+    margin: 2rem auto;
+    width: 90%;
+    p {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .sponsors-container {
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+
+        @include media('<=tablet') {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+.ilny {
+    margin: 50px auto;
+    width: 767px;
+    display: grid;
+    grid-template-columns: 235px 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+
+    @include media('<=monster') {
+        width: 60%;
+    }
+    @include media('<=desktop') {
+        width: 80%;
+    }
+    @include media('<=tablet') {
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+    .logo {
+        img {
+            height: 77px;
+        }
+
+        @include media('<=tablet') {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .info {
+        align-self: start;
+        p {
+            font-size: 1rem;
+            line-height: normal;
+            font-weight: 400;
+
+            @include media('<=tablet') {
+                text-align: center;
+            }
+        }
+    }
+
+}

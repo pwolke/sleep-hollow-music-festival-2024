@@ -1,0 +1,31 @@
+<div class="inner inner-single">
+
+    {{ .Content }}
+
+    <div class="food-container">
+        {{ $foodVendors := .Params.food_vendors }}
+        {{ range $foodVendors }}
+        <div>
+            <img
+                src="{{ .main_image }}"
+                onmouseover="this.src='{{ .rollover_image}}';"
+                onmouseout="this.src='{{ .main_image}}';"
+            >
+            <h3>
+                <a href="{{ .website_link }}" target="_blank" nofollow>
+                    {{ .vendor_name }}
+                </a>
+            </h3>
+        </div>
+        {{ end }}
+    </div>
+    <div class="food-featured">
+        {{ $featured := .Params.food_featured }}
+        <div>
+            <img src="{{ $featured.image }}" alt="">
+        </div>
+        <div>
+            {{ $featured.blurb_text | markdownify }}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,52 @@
+<form id="volunteerForm" name="Volunteer" method="POST" data-netlify="true">
+  <p class="instruction">*All fields required</p>
+    <p>
+    <label>First & Last Name:<br>
+    <input type="text" name="Name" required /></label>
+  </p>
+
+  <p>
+    <label>Email:<br>
+    <input type="email" name="email" required /></label>
+  </p>
+  <p>
+    <label>Phone:<br>
+    <input type="phone" name="phone" required /></label>
+  </p>
+  <p>
+    <label>Age:<br>
+    <input type="number" name="age" maxlength="2" required /></label>
+  </p>
+
+  <fieldset required>
+    <legend>Position of Interest:</legend>
+    <div>
+        <input type="checkbox" name="Artist Hospitality" /> Artist Hospitality<br>
+        <input type="checkbox" name="Box Office" /> Box Office<br>
+        <input type="checkbox" name="Vendor Coordination" /> Vendor Coordination<br>
+        <input type="checkbox" name="Security" /> Security<br>
+        <input type="checkbox" name="Parking" /> Parking<br>
+    </div>
+  </fieldset>
+
+  <fieldset required>
+    <legend>Preferred Shift:</legend>
+    <div>
+        <input type="checkbox" name="7AM-10AM Setup" /> 7AM - 10AM - Setup<br>
+        <input type="checkbox" name="10AM-1PM" /> 10AM - 1PM<br>
+        <input type="checkbox" name="1PM-4PM" /> 1PM - 4PM<br>
+        <input type="checkbox" name="4PM-7PM" /> 4PM - 7PM<br>
+        <input type="checkbox" name="7PM-10PM" /> 7PM - 10PM<br>
+        <input type="checkbox" name="9PM-12AM" /> 9PM - 12AM - Teardown<br>
+    </div>
+  </fieldset>
+
+  <p>
+    <label>What are your super powers? <span>(350 characters maximum)</span>
+        <textarea name="Super Powers" maxlength="350"></textarea>
+    </label>
+  </p>
+  <p>
+    <button type="submit" class="button bigger">Submit Form</button>
+  </p>
+</form>

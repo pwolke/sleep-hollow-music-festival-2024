@@ -1,0 +1,58 @@
+{{ define "main" }}
+
+<div class="artist-inner">
+    {{ .Params.bio_text | markdownify }}
+    {{ .Content }}
+
+    <div class="artist-links">
+        <ul>
+            {{ with .Params.website_link }}<li><a href="{{ . }}"><img src="/images/icon-website.png"
+                        alt="Website icon"></a></li>{{ end }}
+            {{ with .Params.instagram_link }}<li><a href="{{ . }}"><img src="/images/icon-instagram.png"
+                        alt="Instagram icon"></a></li>{{ end }}
+            {{ with .Params.facebook_link }}<li><a href="{{ . }}"><img src="/images/icon-facebook.png"
+                        alt="Facebook icon"></a></li>{{ end }}
+            {{ with .Params.twitter_link }}<li><a href="{{ . }}"><img src="/images/icon-twitter.png"
+                        alt="Twitter icon"></a></li>{{ end }}
+            {{ with .Params.youtube_link }}<li><a href="{{ . }}"><img src="/images/icon-youtube.png"
+                        alt="You Tube icon"></a></li>{{ end }}
+            {{ with .Params.tiktok_link }}<li><a href="{{ . }}"><img src="/images/icon-tiktok.png"
+                        alt="TikTok icon"></a></li>{{ end }}
+            {{ with .Params.apple_link }}<li><a href="{{ . }}"><img src="/images/icon-apple-music.png"
+                        alt="Apple Music icon"></a></li>{{ end }}
+            {{ with .Params.spotify_link }}<li><a href="{{ . }}"><img src="/images/icon-spotify.png"
+                        alt="Spotify icon"></a></li>{{ end }}
+            {{ with .Params.soundcloud_link }}<li><a href="{{ . }}"><img src="/images/icon-soundcloud.png"
+                        alt="Sound Cloud icon"></a></li>{{ end }}
+        </ul>
+    </div>
+
+    <div class="portfolio-grid">
+
+
+        {{ $portfolio := .Params.portfolio }}
+        {{ if $.Site.Data.generic.portfolio_enabled }}
+
+        {{ range $portfolio }}
+            {{ if .is_approved }}
+            <a
+                href="{{ .lightbox_image }}"
+                data-fslightbox="artist-lightbox"
+                data-caption = "{{ .lightbox_caption }}"
+            >
+                <img src="{{ .thumbnail_image }}" alt="">
+            </a>
+            {{ end }}
+        {{ end }}
+
+        {{ else }}
+
+        {{ range $portfolio }}
+        {{ if .is_approved }}<img src="{{ .thumbnail_image }}" alt="">{{end}}
+        {{ end }}
+
+        {{ end }}
+    </div>
+</div>
+
+{{ end }}

@@ -1,0 +1,136 @@
+.inner {
+    margin: 4rem 0;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: map-get($size, inner-alt);
+
+    @include media('<=desktop') {
+        width: 80%;
+    }
+
+    @include media('<=tablet') {
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+        line-height: normal;
+        font-weight: 400;
+        text-transform: capitalize;
+    }
+
+    h3 {
+        margin-top: 2rem;
+        font-size: 2rem;
+        line-height: normal;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    p {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        line-height: normal;
+        font-weight: 300;
+    }
+
+    ul {
+        list-style-type: none;
+
+        li {
+            margin: 1rem 0 1.4rem 0;
+            font-weight: 300;
+            font-size: 1.25rem;
+
+            a {
+                color: map-get($color, fg);
+                box-shadow: 0 1.5px 0 map-get($color, fg);
+
+                &:hover {
+                    box-shadow: none;
+                }
+            }
+
+            &:last-of-type {
+                margin-bottom: 2rem;
+            }
+
+            span {
+                // display: block;
+                margin-right: 6px;
+                font-weight: 600;
+
+                &:after {
+                    content: "…";
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}
+
+.inner-double {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    grid-column-gap: 30px;
+
+    aside {
+        font-size: 1.8rem;
+        line-height: 1.8rem;
+    }
+
+    @include media('<=tablet') {
+        grid-template-columns: 1fr;
+
+        aside {
+            order: 1!important;
+        }
+        main {
+            order: 2!important;
+        }
+    }
+}
+
+.faq {
+
+    details {
+
+        summary {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+            line-height: normal;
+            cursor: pointer;
+
+            @include media('<tablet') {
+                font-size: 1.6rem;
+            }
+
+            &::marker {
+                margin: 0;
+                color: map-get($color, accent2);
+            }
+            &::-webkit-details-marker {
+                margin: 0;
+                color: map-get($color, accent2);
+            }
+
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 1rem;
+        }
+
+        p {
+            font-size: 1.3rem;
+            line-height: normal;
+        }
+
+    }
+
+    @include media('<tablet') {
+        margin-bottom: 10px;
+    }
+}

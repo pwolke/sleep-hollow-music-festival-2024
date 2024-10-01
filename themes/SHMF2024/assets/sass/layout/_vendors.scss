@@ -1,0 +1,18 @@
+.vendors-container {
+    margin-top: 2rem;
+
+    column-count: 2;
+    column-gap: 2rem;
+
+    @include media('<=phone') {
+        column-count: 1;
+    }
+
+    .vendor {
+        break-inside: avoid;
+        margin-bottom: 1rem;
+    }
+
+    h4 {
+    }
+}

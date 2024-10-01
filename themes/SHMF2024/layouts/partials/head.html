@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ .Site.Params.description }}">
+    <meta name="author" content="Paul Wolke - PIXELS & WAVES LLC">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://sleepyhollowmusicfestival.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sleepy Hollow Music Festival Kingsland Point Park 06.08.2024">
+    <meta property="og:description" content="{{ .Site.Params.description }}">
+    <meta property="og:image" content="https://sleepyhollowmusicfestival.com/images/SHMF-OG.jpg">
+
+    {{/* PROCESSING SASS VIA HUGO PIPES */}}
+    {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" true ) }}
+    {{ $style := resources.Get "sass/main.scss" | resources.ToCSS $options }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}" />
+
+    {{/* Swiper Dependancies */}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.4.1/swiper-bundle.min.js"
+        integrity="sha512-3Ei7OPFo83kw3cPbDLeLhn/YF8tZB7Vs8sfli0B/KEekureL5eosDeshYFICCvt4K8i0yUil/lK3cSiic2Wjkg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.4.1/swiper-bundle.css"
+        integrity="sha512-Aeqz1zfbRIQHDPsvEobXzaeXDyh8CUqRdvy6QBCQEbxIc/vazrTdpjEufMbxSW61+7a5vIDDuGh8z5IekVG0YA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="/js/main.js" defer></script>
+    <script src="/js/fslightbox.js" defer></script>
+
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WGTEFL93J3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-WGTEFL93J3');
+    </script>
+
+    <title>
+        {{/* Show Site Title */}}
+        {{ .Site.Title }}
+
+        {{/* If on the homepage, add the tagline */}}
+        {{ if .IsHome }} {{ .Site.Params.tagline }}
+        {{ else }}
+        {{/* If on any other page, show the page title */}}
+        | {{ .Title }}
+        {{ end }}
+    </title>
+
+</head>
