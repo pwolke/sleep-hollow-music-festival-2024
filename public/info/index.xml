@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Info on Sleepy Hollow Music Festival</title>
+    <link>http://192.168.4.20:1313/info/</link>
+    <description>Recent content in Info on Sleepy Hollow Music Festival</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://192.168.4.20:1313/info/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Festival FAQ &amp; Links</title>
+      <link>http://192.168.4.20:1313/info/fest-101-and-faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://192.168.4.20:1313/info/fest-101-and-faq/</guid>
+      <description>Welcome to the Hudson Valley&amp;rsquo;s newest music festival! The event features two stages, lots of food and drink options, and plenty to keep kids of all ages entertained. Join us at the beautiful Kingsland Point Park in legendary Sleepy Hollow, NY as we usher in summer along the Hudson River.</description>
+    </item>
+    <item>
+      <title>Fest Food &amp; Drink</title>
+      <link>http://192.168.4.20:1313/info/fest-food-and-drink/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://192.168.4.20:1313/info/fest-food-and-drink/</guid>
+      <description>Meet our food &amp;amp; drink partners A big part of any festival is having tasty food and get drink options to enjoy along with the music. The Sleepy Hollow Music Festival is no exception. We&amp;rsquo;ve reached out to top-notch local food vendors to offer you a wide variety of food for festival this year — from sweet to savory, everyone will have something to get their mouths watering.</description>
+    </item>
+    <item>
+      <title>Vendors</title>
+      <link>http://192.168.4.20:1313/info/vendors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://192.168.4.20:1313/info/vendors/</guid>
+      <description>The Festival Marketplace In addition to world-class music, tasty food and great drinks we&amp;rsquo;ve curated a selection of craftspeople and vendors for your shopping pleasure. Situated close to the Main Stage, our marketplace will offer everything from apparel, arts &amp;amp; crafts, fine food, pet products and kids stuff.</description>
+    </item>
+    <item>
+      <title>Travel &amp; Lodging</title>
+      <link>http://192.168.4.20:1313/info/travel-and-lodging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://192.168.4.20:1313/info/travel-and-lodging/</guid>
+      <description>Travel &amp;amp; Lodging Tidbits The event features two stages, lots of food and drink options, and plenty to keep kids of all ages entertained. Join us at the beautiful Kingsland Point Park in legendary Sleepy Hollow, NY as we usher in summer along the Hudson River.&#xA;GETTING HERE: If you’re mapping it, Kingsland Point Park is located at 299 Palmer Ave in Sleepy Hollow, NY. It is accessible via Metro-North Train (Tarrytown or Philipse Manor stations are walking distance), or by car, bike or boat (really).</description>
+    </item>
+    <item>
+      <title>Volunteer</title>
+      <link>http://192.168.4.20:1313/info/volunteer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://192.168.4.20:1313/info/volunteer/</guid>
+      <description>Give us a hand and get in free! Volunteers make festivals run — and volunteering at the inaugural Sleepy Hollow Music Festival is a fun way for high school kids to finish up those last few community service hours, and for grownups to have a great time and meet new people while giving back to the community. Did we mention you’ll get in free (and get a cool t shirt)?</description>
+    </item>
+    <item>
+      <title>Partners</title>
+      <link>http://192.168.4.20:1313/info/partners/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://192.168.4.20:1313/info/partners/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
