@@ -130,6 +130,12 @@
         li {
             padding: 60px 0;
             color: map-get($color, bg);
+            font-size: 2rem;
+            font-weight: 500;
+
+            span {
+                font-weight: 300;
+            }
             a {
                 color: map-get($color, bg);
                 text-decoration: underline;

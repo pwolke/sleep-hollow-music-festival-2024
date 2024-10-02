@@ -17,10 +17,7 @@
             {{ $newMenu := $.Site.Data.homepage.post_show_links }}
             <ul>
                 {{ range $newMenu }}
-                    <li style="background-color:{{ .color }};">
-                        Want to be a {{ .name }}? Click
-                        <a href="mailto:{{ $.Site.Data.generic.catch_all_email }}?subject={{ .subject_line }}">here</a>.
-                    </li>
+                    <li style="background-color:{{ .color }};">Want to be a {{ .name }}? <span>Click <a href="mailto:{{ $.Site.Data.generic.catch_all_email }}?subject={{ .subject_line }}">here</a></span>.</li>
                 {{ end }}
             </ul>
         </div>
