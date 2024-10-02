@@ -126,8 +126,10 @@
         margin: 0;
         display: grid;
         grid-template-columns: 1fr;
+        list-style-type: none;
 
         li {
+
             padding: 60px 0;
             color: map-get($color, bg);
             font-size: 2rem;
@@ -147,6 +149,7 @@
 
 .video {
     text-align: center;
+    padding: 200px 0;
 }
 
 .ros {

@@ -10,5 +10,5 @@ desktop_image = "/images/ros.png"
 mobile_image = "/images/ros-m.png"
 
 [video]
-is_enabled = false
+is_enabled = true
 +++

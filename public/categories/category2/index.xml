@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Category2 on Sleepy Hollow Music Festival</title>
-    <link>http://localhost:1313/categories/category2/</link>
+    <link>http://192.168.4.20:1313/categories/category2/</link>
     <description>Recent content in Category2 on Sleepy Hollow Music Festival</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/categories/category2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.4.20:1313/categories/category2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Artists</title>
-      <link>http://localhost:1313/artists/</link>
+      <link>http://192.168.4.20:1313/artists/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/artists/</guid>
+      <guid>http://192.168.4.20:1313/artists/</guid>
       <description></description>
     </item>
     <item>
       <title>Merch</title>
-      <link>http://localhost:1313/merch/</link>
+      <link>http://192.168.4.20:1313/merch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/merch/</guid>
+      <guid>http://192.168.4.20:1313/merch/</guid>
       <description>Welcome to the SHMF Swag Shop! Help celebrate and support the first-ever music festival in historic Sleepy Hollow with some festival-branded swag. Shirts, hoodies and hats are the first items we have for sale and we&amp;rsquo;ll be adding new items soon. Also take a moment and learn more about our merchandizing partner SpectrumDesigns and their mission to make the workplace accessible to people on the Autism spectrum.</description>
     </item>
     <item>
       <title>Tickets</title>
-      <link>http://localhost:1313/tickets/</link>
+      <link>http://192.168.4.20:1313/tickets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tickets/</guid>
+      <guid>http://192.168.4.20:1313/tickets/</guid>
       <description>General Admission tickets on sale now! General Admission tickets give you access to all artist performances, attractions, food vendors, beer and wine selections and family entertainment. Children under 12 are free with a ticketed adult (two kids per adult).&#xA;General Admission tickets are on sale for $85 each. Tickets will be available at the gate for $95 each.</description>
     </item>
   </channel>
