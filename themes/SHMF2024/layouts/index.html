@@ -5,6 +5,22 @@
         {{ partial "header.html" . }}
         {{ partial "hero-home.html" . }}
 
+        <div class="mission">
+            {{ $intro := .Params.introduction }}
+            <h1>{{ $intro.title }}</h1>
+            <p>
+                {{ $intro.message_text }}
+            </p>
+        </div>
+
+        <div class="new-menu">
+            New Menu
+        </div>
+
+        <div class="video">
+            2024 video
+        </div>
+
         <div class="home-menu-container">
             <div class="home-menu">
                 <a href="{{ .Permalink }}info">
@@ -23,15 +39,8 @@
             </div>
         </div>
 
-        <div class="mission">
-            {{ $intro := .Params.introduction }}
-            <h1>{{ $intro.title }}</h1>
-            <p>
-                {{ $intro.message_text }}
-            </p>
-        </div>
 
-        <div class="ros">
+        {{/*  <div class="ros">
             {{ $ros := .Params.run_of_show }}
             <img src="{{ $ros.desktop_image }}" alt="Image displaying show times">
         </div>
@@ -48,10 +57,10 @@
                     Get yours <a href="{{ $.Site.Data.generic.tickets_link }}" target="_blank">here</a>.
                 </p>
             </div>
-        </div>
+        </div>  */}}
 
 
-        <div class="sponsors">
+        {{/*  <div class="sponsors">
             {{ $.Site.Data.sponsors.message_html | safeHTML }}
 
             <div class="sponsors-container">
@@ -64,7 +73,7 @@
             {{ end }}
             </div>
 
-        </div>
+        </div>  */}}
 
 
         {{/*  <div class="ilny">
