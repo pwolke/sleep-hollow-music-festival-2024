@@ -13,7 +13,7 @@
 
     span {
         height: 4px;
-        width: 57px;
+        width: 50px;
         border-radius: 3px;
         background-color: white;
         position: relative;
@@ -30,13 +30,13 @@
         &:after {
             top: 12px;
             left: -1px;
-            margin: 0 2px;
+            margin: 0 1px;
         }
 
         &:before,
         &:after {
             height: 4px;
-            width: 55px;
+            width: 50px;
             border-radius: 3px;
             background-color: white;
             position: absolute;
