@@ -68,6 +68,14 @@
                 background-color: darken(map-get($color, accent2), 6);
             }
         }
+        .disabled {
+            background-color: map-get($color, disabled);
+            background-image: url(/images/artist-menu-temp-callout.jpg);
+
+            &:hover {
+                background-color: darken(map-get($color, disabled), 6);
+            }
+        }
 
         .merch {
             background-color: map-get($color, accent3);

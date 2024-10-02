@@ -1,4 +1,4 @@
-baseURL = 'https://sleepyhollowmusicfestival.com/'
+baseURL = 'https://shmf-2024.netlify.app/'
 
 languageCode = 'en-us'
 title = 'Sleepy Hollow Music Festival'
@@ -18,15 +18,19 @@ theme = "SHMF2024"
     name = "Info"
     pageRef = "/info"
     weight = "10"
+    is_enabled = true
 [[menu.main]]
     name = "Tickets"
     pageRef = "/tickets"
     weight = "20"
+    is_enabled = true
 [[menu.main]]
     name = "Artists"
     pageRef = "/artists"
     weight = "30"
+    is_enabled = false
 [[menu.main]]
     name = "Merch"
     pageRef = "/merch"
     weight = "40"
+    is_enabled = true
