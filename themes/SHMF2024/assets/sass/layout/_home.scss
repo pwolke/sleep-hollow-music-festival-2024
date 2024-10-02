@@ -70,7 +70,7 @@
         }
         .disabled {
             background-color: map-get($color, disabled);
-            background-image: url(/images/artist-menu-temp-callout.jpg);
+            background-image: url(/images/callout-temp-artists.jpg);
 
             &:hover {
                 background-color: darken(map-get($color, disabled), 6);
@@ -123,6 +123,7 @@
 
     text-align: center;
     ul {
+        margin: 0;
         display: grid;
         grid-template-columns: 1fr;
 

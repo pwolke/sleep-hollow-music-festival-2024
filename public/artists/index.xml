@@ -2,65 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Artists on Sleepy Hollow Music Festival</title>
-    <link>http://192.168.4.20:1313/artists/</link>
+    <link>http://localhost:1313/artists/</link>
     <description>Recent content in Artists on Sleepy Hollow Music Festival</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://192.168.4.20:1313/artists/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/artists/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Anthony Giaccio &amp; The Assortments</title>
-      <link>http://192.168.4.20:1313/artists/anthony-giaccio-and-the-assortments/</link>
+      <link>http://localhost:1313/artists/anthony-giaccio-and-the-assortments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.4.20:1313/artists/anthony-giaccio-and-the-assortments/</guid>
+      <guid>http://localhost:1313/artists/anthony-giaccio-and-the-assortments/</guid>
       <description></description>
     </item>
     <item>
       <title>Clare Maloney</title>
-      <link>http://192.168.4.20:1313/artists/clare-maloney/</link>
+      <link>http://localhost:1313/artists/clare-maloney/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.4.20:1313/artists/clare-maloney/</guid>
+      <guid>http://localhost:1313/artists/clare-maloney/</guid>
       <description></description>
     </item>
     <item>
       <title>Cold War Kids</title>
-      <link>http://192.168.4.20:1313/artists/cold-war-kids/</link>
+      <link>http://localhost:1313/artists/cold-war-kids/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.4.20:1313/artists/cold-war-kids/</guid>
+      <guid>http://localhost:1313/artists/cold-war-kids/</guid>
       <description></description>
     </item>
     <item>
       <title>Danielle Ponder</title>
-      <link>http://192.168.4.20:1313/artists/danielle-ponder/</link>
+      <link>http://localhost:1313/artists/danielle-ponder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.4.20:1313/artists/danielle-ponder/</guid>
+      <guid>http://localhost:1313/artists/danielle-ponder/</guid>
       <description></description>
     </item>
     <item>
       <title>Divining Rod</title>
-      <link>http://192.168.4.20:1313/artists/divining-rod/</link>
+      <link>http://localhost:1313/artists/divining-rod/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.4.20:1313/artists/divining-rod/</guid>
+      <guid>http://localhost:1313/artists/divining-rod/</guid>
       <description></description>
     </item>
     <item>
       <title>Nightingale All-Stars</title>
-      <link>http://192.168.4.20:1313/artists/nightingale-all-stars/</link>
+      <link>http://localhost:1313/artists/nightingale-all-stars/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.4.20:1313/artists/nightingale-all-stars/</guid>
+      <guid>http://localhost:1313/artists/nightingale-all-stars/</guid>
       <description></description>
     </item>
     <item>
       <title>The Barn Vultures</title>
-      <link>http://192.168.4.20:1313/artists/the-barn-vultures/</link>
+      <link>http://localhost:1313/artists/the-barn-vultures/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.4.20:1313/artists/the-barn-vultures/</guid>
+      <guid>http://localhost:1313/artists/the-barn-vultures/</guid>
       <description></description>
     </item>
     <item>
       <title>The Verve Pipe</title>
-      <link>http://192.168.4.20:1313/artists/verve-pipe/</link>
+      <link>http://localhost:1313/artists/verve-pipe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.4.20:1313/artists/verve-pipe/</guid>
+      <guid>http://localhost:1313/artists/verve-pipe/</guid>
       <description></description>
     </item>
   </channel>

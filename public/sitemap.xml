@@ -2,64 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://192.168.4.20:1313/info/fest-101-and-faq/</loc>
+    <loc>http://localhost:1313/info/fest-101-and-faq/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/test/fest-101-and-faq/</loc>
+    <loc>http://localhost:1313/test/fest-101-and-faq/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/info/fest-food-and-drink/</loc>
+    <loc>http://localhost:1313/info/fest-food-and-drink/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/test/fest-food-and-drink/</loc>
+    <loc>http://localhost:1313/test/fest-food-and-drink/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/info/vendors/</loc>
+    <loc>http://localhost:1313/info/vendors/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/test/vendors/</loc>
+    <loc>http://localhost:1313/test/vendors/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/info/travel-and-lodging/</loc>
+    <loc>http://localhost:1313/info/travel-and-lodging/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/test/travel-and-lodging/</loc>
+    <loc>http://localhost:1313/test/travel-and-lodging/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/info/volunteer/</loc>
+    <loc>http://localhost:1313/info/volunteer/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/test/volunteer/</loc>
+    <loc>http://localhost:1313/test/volunteer/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/info/partners/</loc>
+    <loc>http://localhost:1313/info/partners/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/test/partners/</loc>
+    <loc>http://localhost:1313/test/partners/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/artists/anthony-giaccio-and-the-assortments/</loc>
+    <loc>http://localhost:1313/artists/anthony-giaccio-and-the-assortments/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/artists/</loc>
+    <loc>http://localhost:1313/artists/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/categories/category1/</loc>
+    <loc>http://localhost:1313/categories/category1/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/categories/category2/</loc>
+    <loc>http://localhost:1313/categories/category2/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/artists/clare-maloney/</loc>
+    <loc>http://localhost:1313/artists/clare-maloney/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/artists/cold-war-kids/</loc>
+    <loc>http://localhost:1313/artists/cold-war-kids/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/artists/danielle-ponder/</loc>
+    <loc>http://localhost:1313/artists/danielle-ponder/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/artists/divining-rod/</loc>
+    <loc>http://localhost:1313/artists/divining-rod/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/info/</loc>
+    <loc>http://localhost:1313/info/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/test/</loc>
+    <loc>http://localhost:1313/test/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/merch/</loc>
+    <loc>http://localhost:1313/merch/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/artists/nightingale-all-stars/</loc>
+    <loc>http://localhost:1313/artists/nightingale-all-stars/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/artists/the-barn-vultures/</loc>
+    <loc>http://localhost:1313/artists/the-barn-vultures/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/artists/verve-pipe/</loc>
+    <loc>http://localhost:1313/artists/verve-pipe/</loc>
   </url><url>
-    <loc>http://192.168.4.20:1313/tickets/</loc>
+    <loc>http://localhost:1313/tickets/</loc>
   </url>
 </urlset>

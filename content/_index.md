@@ -9,4 +9,6 @@ message_text = "Join us at Kingsland Point Park for a full day of world-class li
 desktop_image = "/images/ros.png"
 mobile_image = "/images/ros-m.png"
 
+[video]
+is_enabled = false
 +++
