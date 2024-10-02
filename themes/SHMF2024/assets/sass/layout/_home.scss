@@ -122,6 +122,20 @@
 .new-menu {
 
     text-align: center;
+    ul {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        li {
+            padding: 60px 0;
+            color: map-get($color, bg);
+            a {
+                color: map-get($color, bg);
+                text-decoration: underline;
+                box-shadow: none;
+            }
+        }
+    }
 }
 
 .video {

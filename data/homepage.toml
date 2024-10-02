@@ -2,3 +2,24 @@
 homepage_large_image = "/uploads/shmf-home-hero-1728x596-we-reback-3.jpg"
 homepage_small_image = "/uploads/shmf-home-hero-800x800-we-reback-2.jpg"
 link_url = "https://www.squadup.com/events/sleepy-hollow"
+
+[[post_show_links]]
+is_enabled = true
+name = "sponsor"
+subject_line = "Yes, I would like to be a sponsor"
+color = "#37B1C8"
+[[post_show_links]]
+is_enabled = true
+name = "vendor"
+subject_line = "Yes, I would like to be a vendor"
+color = "#37B1C8"
+[[post_show_links]]
+is_enabled = true
+name = "volunteer"
+subject_line = "Yes, I would like to be a volunteer"
+color = "#02A63A"
+[[post_show_links]]
+is_enabled = true
+name = "performer"
+subject_line = "Yes, I would like to be a performer"
+color = "#F69634"

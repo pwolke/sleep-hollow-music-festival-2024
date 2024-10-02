@@ -14,11 +14,14 @@
         </div>
 
         <div class="new-menu">
+            {{ $newMenu := $.Site.Data.homepage.post_show_links }}
             <ul>
-                <li>sponsor</li>
-                <li>vendor</li>
-                <li>volunteer</li>
-                <li>performer</li>
+                {{ range $newMenu }}
+                    <li style="background-color:{{ .color }};">
+                        Want to be a {{ .name }}? Click
+                        <a href="mailto:{{ $.Site.Data.generic.catch_all_email }}?subject={{ .subject_line }}">here</a>.
+                    </li>
+                {{ end }}
             </ul>
         </div>
 
