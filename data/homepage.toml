@@ -12,7 +12,7 @@ color = "#37B1C8"
 is_enabled = true
 name = "vendor"
 subject_line = "Yes, I would like to be a vendor"
-color = "#37B1C8"
+color = "#FEC759"
 [[post_show_links]]
 is_enabled = true
 name = "volunteer"
