@@ -27,7 +27,7 @@ theme = "SHMF2024"
     is_enabled = true
 [[menu.main]]
     name = "Artists"
-    pageRef = "/artists"
+    pageRef = "/"
     weight = "30"
     is_enabled = false
 [[menu.main]]
