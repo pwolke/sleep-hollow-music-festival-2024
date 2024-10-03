@@ -12,7 +12,7 @@
       <link>http://192.168.4.20:1313/info/fest-101-and-faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://192.168.4.20:1313/info/fest-101-and-faq/</guid>
-      <description>Welcome to the Hudson Valley&amp;rsquo;s newest music festival! The event features two stages, lots of food and drink options, and plenty to keep kids of all ages entertained. Join us at the beautiful Kingsland Point Park in legendary Sleepy Hollow, NY as we usher in summer along the Hudson River.</description>
+      <description>Music Festival 101 The event features two stages, lots of food and drink options, and plenty to keep kids of all ages entertained. Join us at the beautiful Kingsland Point Park in legendary Sleepy Hollow, NY as we usher in summer along the Hudson River.�����������������������������������</description>
     </item>
     <item>
       <title>Festival FAQ &amp; Links</title>
@@ -125,6 +125,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://192.168.4.20:1313/artists/divining-rod/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>Info</title>
+      <link>http://192.168.4.20:1313/info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://192.168.4.20:1313/info/</guid>
+      <description>Info content</description>
     </item>
     <item>
       <title>Nightingale All-Stars</title>
