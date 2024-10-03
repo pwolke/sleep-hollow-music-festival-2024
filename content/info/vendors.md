@@ -63,7 +63,9 @@ store = [
 +++
 ## The Festival Marketplace
 
-In addition to world-class music, tasty food and great drinks we've curated a selection of craftspeople and vendors for your shopping pleasure. Situated close to the Main Stage, our marketplace will offer everything from apparel, arts & crafts, fine food, pet products and kids stuff.
+In addition to world-class music, tasty food and great drinks we've curated a selection of craftspeople and vendors for your shopping pleasure. Situated close to the Main Stage, our marketplace will offer everything from apparel, arts & crafts, fine food, pet products and kids stuff.<br><br>**Here's a list of our vendors from 2024, stay tuned for who'll be doing us in 2025**
+
+&nbsp;
 
 &nbsp;
 
