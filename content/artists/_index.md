@@ -35,7 +35,7 @@ alt_text = "The Barn Vultures"
 
 [[artist]]
 name = "Cold War Kids"
-is_active = true
+is_active = false
 profile_image = "/uploads/shmf-artist-page-profile-900x483-0000-coldwarkids.jpg"
 bio = "Now in its 20th year, this California-based band draws from its blues-and-soul-driven sonic past along with fresh forays into dance beats and pop/rock."
 website_link = "https://www.coldwarkids.com/"
@@ -51,7 +51,7 @@ page_link = "/artists/cold-war-kids"
 
 [[artist]]
 name = "Danielle Ponder"
-is_active = true
+is_active = false
 profile_image = "/uploads/shmf-artist-page-profile-900x483-0000-danielleponder-1.jpg"
 bio = "In 2021, Danielle Ponder announced her presence to the world at the Newport Jazz Festival where her set was hailed as one of the event’s best."
 website_link = "https://danielleponder.com/"
@@ -66,14 +66,14 @@ page_link = "/artists/danielle-ponder"
 
 [[artist]]
 name = "Nightingale All-Stars"
-is_active = true
+is_active = false
 profile_image = "/uploads/artistpage-nightingale.jpg"
 bio = "The Nightingale All-Stars is a new collaboration from John Popper, co-founder of the hugely popular Grammy-winning band Blues Traveler. "
 page_link = "/artists/nightingale-all-stars"
 
 [[artist]]
 name = "The Verve Pipe"
-is_active = true
+is_active = false
 profile_image = "/uploads/shmf-artist-page-profile-900x483-0000-thevervepipe.jpg"
 bio = "The Verve Pipe has spent three decades creating a sound rooted in pop hooks, alt-rock guitars, and the sharp songwriting of frontman Brian Vander Ark."
 website_link = "www.thevervepipe.com"
@@ -85,7 +85,7 @@ page_link = "/artists/verve-pipe"
 
 [[artist]]
 name = "Clare Maloney & The Great Adventure"
-is_active = true
+is_active = false
 profile_image = "/uploads/shmf-artist-page-profile-900x483-0005-claremaloney.png"
 bio = "Clare Maloney & The Great Adventure are bringing the era of windows-down, roadtrip rock & roll straight into the playlist generation.  "
 website_link = "https://claremaloney.com/#home-section"
@@ -97,7 +97,7 @@ page_link = "/artists/clare-maloney"
 
 [[artist]]
 name = "Anthony Giaccio & The Assortments"
-is_active = true
+is_active = false
 profile_image = "/uploads/shmf-artist-page-photos-900x483.jpg"
 bio = "Anthony Giaccio has been writing songs most of his adult life, but only recently started recording and performing them."
 website_link = "https://www.anthonygiacciomusic.com"
@@ -109,7 +109,7 @@ page_link = "/artists/anthony-giaccio-and-the-assortments"
 
 [[artist]]
 name = "The Barn Vultures"
-is_active = true
+is_active = false
 profile_image = "/uploads/shmf-artist-page-profile-900x483-0000-thebarnvultures.jpg"
 bio = "The Barn Vultures are a band from Westchester, New York playing an eclectic mix of Americana and Roots Rock music."
 website_link = "https://thebarnvultures.com"
