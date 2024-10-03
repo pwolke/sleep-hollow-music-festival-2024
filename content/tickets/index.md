@@ -13,4 +13,4 @@ alt_text = "alt text"
 
 General Admission tickets give you access to all artist performances, attractions, food vendors, beer and wine selections and family entertainment. Children under 10 are free with a ticketed adult (two kids per adult).
 
-General Admission Headless Pre-Sale tickets are now available for $60 each.
+**General Admission Headless Pre-Sale tickets are now available for $60 each.**
