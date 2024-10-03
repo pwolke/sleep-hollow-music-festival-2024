@@ -98,4 +98,4 @@ Festival going is thirsty work, that's why we're teaming up with the great folks
 
 A big part of any festival is having tasty food and get drink options to enjoy along with the music. The Sleepy Hollow Music Festival is no exception. We've reached out to top-notch local food vendors to offer you a wide variety of food for festival this year — from sweet to savory, everyone will have something to get their mouths watering.
 
-**Here are our 2024 vendors, stay tuned for who'll be feeding our faces in 2025.**
+**Here are our 2024 vendors, stay tuned for who'll be feeding us in 2025.**
