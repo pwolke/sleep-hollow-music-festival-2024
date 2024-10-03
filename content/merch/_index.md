@@ -34,7 +34,7 @@ product_link_url = "https://spectrumdesigns.chipply.com/SleepyHollowMusicFestiva
 
 [[product]]
 product_title_text = "Trucker Cap"
-is_enabled = true
+is_enabled = false
 product_price = "35.00"
 product_image = "/images/merch-hat.jpg"
 product_image_alt_text = "Sleepy Hollow Music Festival Trucker Hats"
