@@ -1,4 +1,5 @@
-baseURL = 'https://shmf-2024.netlify.app/'
+# baseURL = 'https://shmf-2024.netlify.app/'
+baseURL = 'https://sleepyhollowmusicfestival.com/'
 
 languageCode = 'en-us'
 title = 'Sleepy Hollow Music Festival'
