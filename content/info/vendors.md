@@ -64,3 +64,7 @@ store = [
 ## The Festival Marketplace
 
 In addition to world-class music, tasty food and great drinks we've curated a selection of craftspeople and vendors for your shopping pleasure. Situated close to the Main Stage, our marketplace will offer everything from apparel, arts & crafts, fine food, pet products and kids stuff.
+
+&nbsp;
+
+&nbsp;
