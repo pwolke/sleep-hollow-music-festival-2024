@@ -4,12 +4,10 @@ footer {
     color: map-get($color, bg);
 
     .footer-container {
-        margin-left: auto;
-        margin-right: auto;
         width: map-get($size, inner-content-width);
         height: 100%;
         display: grid;
-        grid-template-columns: 254px 185px auto 131px;
+        grid-template-columns: 1fr;
         grid-column-gap: 20px;
         align-items: center;
 
