@@ -3,13 +3,22 @@ footer {
     background-color: map-get($color, fg);
     color: map-get($color, bg);
 
-    margin-left: auto;
-    margin-right: auto;
     width: 100%;
+
     display: grid;
     grid-template-columns: 1fr;
 
-    img {
-        display: inline;
+    div {
+        margin: 40px auto;
+        width: 500px;
+
+        display: grid;
+        grid-template-columns: 254px 48px 48px 48px;
+        gap: 30px;
+        align-items: center;
+
+        img {
+            display: inline;
+        }
     }
 }

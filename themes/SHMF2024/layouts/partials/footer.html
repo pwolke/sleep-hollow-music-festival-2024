@@ -1,6 +1,8 @@
 <footer>
-    {{/*  <img src="/images/sleepy-hollow-logo.png" alt="Village of Sleepy Hollow Logo">
-    <img src="/images/icon-instagram-wt.png" alt="Instagram Logo">
-    <img src="/images/icon-facebook-wt.png" alt="Facebook Logo">
-    <img src="/images/icon-email-wt.png" alt="Email Icon">  */}}
+    <div>
+        <a href=""><img src="/images/sleepy-hollow-logo.png" alt="Village of Sleepy Hollow Logo"></a>
+        <a href="{{ .Site.Params.instagram }}"><img src="/images/icon-instagram-wt.png" alt="Instagram Logo"></a>
+        <a href="{{ .Site.Params.facebook }}"><img src="/images/icon-facebook-wt.png" alt="Facebook Logo"></a>
+        <a href="mailto:{{ .Site.Params.email }}?subject=Website Contact"><img src="/images/icon-email-wt.png" alt="Email Icon"></a>
+    </div>
 </footer>
