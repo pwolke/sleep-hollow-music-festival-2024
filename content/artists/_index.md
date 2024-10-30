@@ -6,34 +6,6 @@ categories = [ "category1", "category2" ]
 section_color = "#1a9ab1"
 
 [[hero]]
-image = "/uploads/shmf-artist-list-page-hero-1700x586-0000-coldwarkids.jpg"
-alt_text = "Cold War Kids"
-
-[[hero]]
-image = "/uploads/shmf-artist-list-page-hero-1700x586-0000-danielleponder-1.jpg"
-alt_text = "Danielle Ponder"
-
-[[hero]]
-image = "/uploads/shmf-artist-list-page-hero-1700x586-0000-thevervepipe.jpg"
-alt_text = "The Verve Pipe"
-
-[[hero]]
-image = "/uploads/artist-hero-nightingale.jpg"
-alt_text = "Nightingale All-Stars"
-
-[[hero]]
-image = "/uploads/shmf-artist-list-page-hero-1700x586-0000-claremaloney-thegreatadventure.jpg"
-alt_text = "Clare Maloney & The Great Adventure"
-
-[[hero]]
-image = "/uploads/shmf-artist-page-hero-1700x586-giaccio.jpg"
-alt_text = "Anthony Giaccio & The Assortments"
-
-[[hero]]
-image = "/uploads/shmf-artist-list-page-hero-1700x586-barnvultures-0000-thebarnvultures.jpg"
-alt_text = "The Barn Vultures"
-
-[[hero]]
 image = "/uploads/shmf-artist-page-hero-1700x586.jpg"
 alt_text = "Coming Soon"
 
