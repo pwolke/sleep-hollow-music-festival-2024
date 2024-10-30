@@ -33,6 +33,10 @@ alt_text = "Anthony Giaccio & The Assortments"
 image = "/uploads/shmf-artist-list-page-hero-1700x586-barnvultures-0000-thebarnvultures.jpg"
 alt_text = "The Barn Vultures"
 
+[[hero]]
+image = "/uploads/shmf-artist-page-hero-1700x586.jpg"
+alt_text = "Coming Soon"
+
 [[artist]]
 name = "Cold War Kids"
 is_active = false
