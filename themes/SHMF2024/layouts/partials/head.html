@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ .Site.Params.description }}">
+    {{/*  <meta name="description" content="{{ .Site.Params.description }}">  */}}
+    <meta name="description" content="{{ $.Site.Data.generic.default_page_description }}">
     <meta name="author" content="Paul Wolke - PIXELS & WAVES LLC">
 
     <!-- Facebook Meta Tags -->
