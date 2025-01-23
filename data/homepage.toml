@@ -7,19 +7,22 @@ link_url = "https://www.squadup.com/events/sleepy-hollow"
 is_enabled = true
 name = "sponsor"
 subject_line = "Yes, I would like to be a sponsor"
-color = "#37B1C8"
+color = "#37b1c8"
+
 [[post_show_links]]
 is_enabled = true
 name = "vendor"
 subject_line = "Yes, I would like to be a vendor"
-color = "#FEC759"
+color = "#fec759"
+
 [[post_show_links]]
 is_enabled = true
 name = "volunteer"
 subject_line = "Yes, I would like to be a volunteer"
-color = "#02A63A"
+color = "#02a63a"
+
 [[post_show_links]]
 is_enabled = true
 name = "performer"
 subject_line = "Yes, I would like to be a performer"
-color = "#F69634"
+color = "#f69634"
