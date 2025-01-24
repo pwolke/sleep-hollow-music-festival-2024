@@ -7,22 +7,26 @@ link_url = "https://www.squadup.com/events/sleepy-hollow"
 is_enabled = true
 name = "sponsor"
 subject_line = "Yes, I would like to be a sponsor"
+email_address = "info@sleepyhollowmusicfestival.com"
 color = "#37b1c8"
 
 [[post_show_links]]
 is_enabled = true
 name = "vendor"
 subject_line = "Yes, I would like to be a vendor"
+email_address = "info@sleepyhollowmusicfestival.com"
 color = "#fec759"
 
 [[post_show_links]]
 is_enabled = true
 name = "volunteer"
 subject_line = "Yes, I would like to be a volunteer"
+email_address = "info@sleepyhollowmusicfestival.com"
 color = "#02a63a"
 
 [[post_show_links]]
 is_enabled = true
 name = "performer"
 subject_line = "Yes, I would like to be a performer"
+email_address = "info@sleepyhollowmusicfestival.com"
 color = "#f69634"
