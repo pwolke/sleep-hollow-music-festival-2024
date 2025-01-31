@@ -37,6 +37,7 @@ collections_config:
       default:
         path: schemas/artist.md
   data:
+    path: data
     icon: analytics
     preview:
       icon_color: '#f89732'
