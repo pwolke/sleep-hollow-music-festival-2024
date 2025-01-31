@@ -44,6 +44,14 @@ collections_config:
 _enabled_editors:
   - data
   - content
+collection_groups:
+  - heading: Site Content
+    collections:
+      - pages
+      - artists
+  - heading: Data
+    collections:
+      - data
 _inputs:
   layout:
     hidden: true
