@@ -9,7 +9,7 @@ alt_text = "Cousin's of Maine Lobster Roll"
 
 [[hero]]
 image = "/uploads/shmf-interior-hero-1728x596-0002-arthur-ave.jpg"
-alt_text = "Arthur Avenue wood Fired Pizza"
+alt_text = "Arthur Avenue Wood Fired Pizza"
 
 [[hero]]
 image = "/uploads/shmf-interior-hero-1728x596-0001-nathans.jpg"
