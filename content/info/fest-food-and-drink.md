@@ -64,7 +64,7 @@ rollover_image = "/uploads/shmf-food-441x312-wrappers-food.jpg"
 website_link = "https://www.facebook.com/thebestwrappersalive"
 
 [[food_vendors]]
-vendor_name = "Artur Ave Wood Fire Pizza"
+vendor_name = "Arthur Ave Wood Fire Pizza"
 main_image = "/uploads/shmf-food-441x312-arthur-logo.jpg"
 rollover_image = "/uploads/shmf-food-441x312-arthur-pizza.jpg"
 website_link = "https://www.arthuravenuemenu.com"
