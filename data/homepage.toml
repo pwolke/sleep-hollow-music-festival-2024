@@ -7,7 +7,7 @@ link_url = "https://www.squadup.com/events/sleepy-hollow"
 is_enabled = true
 name = "sponsor"
 subject_line = "Interested Sponsor SHMF"
-email_address = "liz@rivertownsmusicgroup.com"
+email_address = "publisher@rivertownsmedia.com"
 color = "#37b1c8"
 
 [[post_show_links]]
